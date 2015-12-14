@@ -1,0 +1,126 @@
+body {
+    font-family: Roboto;
+    font-size: 2em;
+    color: #747704;
+    line-height: 1.2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header, section, div {
+    box-sizing: border-box;
+}
+
+ 
+
+ 
+
+/*
+ *
+ * Header
+ *
+ */
+
+header {
+    margin-top: -10px;
+    padding-top: 50px;
+    background-color: black;   
+    padding-bottom: 50px;
+}
+
+.header_container {
+    display: flex;
+     
+}
+
+.header_image {
+    width: 140px;
+    height: 140px; 
+    border-radius: 50%;
+    margin-left: 42%;
+}
+
+.header_title { 
+    text-transform: uppercase;
+    line-height: 3px;
+    margin-left: 5%;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: #BCBBBB;
+    font-size: 1.9em;
+}
+
+.header_title_subtitle {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+hr {
+    border-width: 3px;
+    box-shadow: none;
+}
+
+/*
+ *
+ * main
+ *
+ */
+
+main {
+    margin-top: 1em;
+}
+
+.main_work_image {
+    width: 100%;
+}
+
+*
+ * feather work
+ *
+ */
+
+.feather_work {
+    margin-top: 2em;
+}
+
+.feather_work_font {
+    color: #BCBBBB;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+.three_image_font {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.feather_work_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feather_work_discription {
+    width: 31%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.three_image {
+    width: 100%;
+}
+
+.feather_work_link {
+    font-size: 0.2em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+
+
+
