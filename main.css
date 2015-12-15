@@ -31,7 +31,7 @@ ul {
  */
 
 header {
-    padding-top: 50px;
+    padding-top: 20px;
     background-color: black;
 }
 .header_container {
@@ -46,13 +46,15 @@ header {
 .header_title {
     text-transform: uppercase;
     line-height: 3px;
-    margin-left: 5%;
+    margin-left: 35px;
 }
 h2 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 100;
+    font-weight: 500;
     color: #BCBBBB;
-    font-size: 1.9em;
+    color: white;
+    margin-top: 45px;
+    font-size: 2.5em;
 }
 .header_title_subtitle {
     font-size: 15px;
@@ -217,7 +219,7 @@ main {
     font-weight: 100;
     color: #BCBBBB;
     font-size: 1.9em;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 .footer_list {
     margin-left: 5%;
@@ -231,5 +233,15 @@ main {
     line-height: 20px;
     padding: 2px;
     word-wrap: break-word;
+}
+.footer_images{
+    position: absolute;
+    right: 30px;
+    margin-top: 20px;
+    display: flex;
+}
+.footer_image{
+    padding-left: 10px;
+    width: 30px;
 }
 
