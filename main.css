@@ -151,13 +151,29 @@ main {
  * about
  *
  */
+ 
+.about{
+    margin-left: 18%;
+} 
 
-.about {
-    line-height: 1.2em;
+.self_introduction{
+    line-height: 2em;
     word-wrap: break-word;
-    margin-right: 20%;
-    padding-top: 20px;
+    max-width: 40%; 
+    z-index: 99;
+    margin-top: 50px;
 }
+ 
+.person_image{ 
+    margin-top: 35px;
+    width: 700px;
+    position: absolute;
+    right: 0px; 
+}
+ 
+ 
+ 
+
 /*
  * CSS menu
  *
@@ -199,6 +215,10 @@ main {
     text-decoration: none; 
     color: #1080D4;
 }
+
+
+
+
 
 
 /*
